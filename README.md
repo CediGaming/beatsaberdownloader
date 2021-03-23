@@ -11,3 +11,6 @@ Same goes for finding bugs!
 [Cloudscraper](https://pypi.org/project/cloudscraper/)
 
 (Install everything via `pip install -r requirements.txt`)
+
+## Usage
+Simply run the `main.py` and follow the instructions!
