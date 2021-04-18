@@ -8,7 +8,7 @@ If there are any other providers you would like me to integrate, please let me k
 Same goes for finding bugs!
 
 ## Requirements
-[Cloudscraper](https://pypi.org/project/cloudscraper/)
+ * [Cloudscraper](https://pypi.org/project/cloudscraper/)
 
 (Install everything via `pip install -r requirements.txt`)
 

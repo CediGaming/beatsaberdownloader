@@ -26,7 +26,7 @@ if __name__ == "__main__":
 		provider = source.parseProviderFromURL(weburl)
 		id = source.parseIdFromURL(weburl)
 		scrapeurl = source.generateScrapeURL(provider, id)
-
+		
 		downloader.scrapeZipFile(scrapeurl, tempZipFile)
 		extractor.extractZip(tempZipFile, tempFolder)
 		exporter.exportFolderToBS(tempFolder, installPath, provider, id)
